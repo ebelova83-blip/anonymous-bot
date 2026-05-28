@@ -1,7 +1,7 @@
 from telegram import Update
 from telegram.ext import ApplicationBuilder, MessageHandler, filters, ContextTypes
 
-TOKEN = "8887585380:AAEdehG1nB0slEWw_X_xZWm-MXI-nJtm_Kg" мы
+TOKEN = "8887585380:AAEdehG1nB0slEWw_X_xZWm-MXI-nJtm_Kg" 
 OWNER_ID = 8595521730
 
 async def forward_message(update: Update, context: ContextTypes.DEFAULT_TYPE):
