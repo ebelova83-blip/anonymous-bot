@@ -1,8 +1,8 @@
 from telegram import Update
 from telegram.ext import ApplicationBuilder, MessageHandler, ContextTypes, filters
 
-TOKEN = “СЮДА_ВСТАВЬ_ТОКЕН_ОТ_BOTFATHER”
-OWNER_ID = СЮДА_ВСТАВЬ_ТВОЙ_TELEGRAM_ID
+TOKEN = "8887585380:AAEdehGlnB0slEWw_X_xZWm-MXI-nJtm_Kg"
+OWNER_ID = 8595521730
 
 async def forward_message(update: Update, context: ContextTypes.DEFAULT_TYPE):
 user = update.effective_user
